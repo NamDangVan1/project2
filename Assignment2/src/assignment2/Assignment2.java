@@ -13,7 +13,6 @@ public class Assignment2
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         
         System.out.print("1. Name: ");
-        System.out.println("String? " + keyBoard.hasNext());
         System.out.println("Interger? " + keyBoard.hasNextInt());
         String name = keyBoard.nextLine();
         
